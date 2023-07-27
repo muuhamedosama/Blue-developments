@@ -1,0 +1,17 @@
+ {
+  "error": {
+    "routeNotExist" : "Could not find this route",
+    "unknown": "An unknown error occurred!",
+    "server": {
+      "signup": "Signing up failed, please try again",
+      "login": "Logging in failed, please try again"
+    },
+    "userExist": "Username already exists",
+    "invalidCredentials": "Invalid credentials, could not log you in",
+    "authorization": "Authorization failed!"
+  },
+  "success": {
+    "signup": "You have successfully signed up",
+    "login": "You have successfully logged in"
+  }
+}
