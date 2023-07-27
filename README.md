@@ -2,11 +2,11 @@
 I worked based on microservices architecture.
 
 to run frontend:
-  npm i
+  npm i,
   npm run dev
 
 for the auth-service and task-service:
-  npm i 
+  npm i,
   npm start
 
 .env file for auth service:
