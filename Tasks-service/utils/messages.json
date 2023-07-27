@@ -1,0 +1,19 @@
+{
+  "error": {
+    "routeNotExist": "Could not find this route",
+    "unknown": "An unknown error occurred!",
+    "authentication": "Authentication failed!",
+    "authorization": "You are not authorized to make this action",
+    "server": {
+      "createTask": "Creating task failed, please try again",
+      "getTasks": "Finding tasks failed, please try again",
+      "updateTask": "Updating task failed, please try again",
+      "deleteTask": "Deleting task failed, please try again"
+    }
+  },
+  "success": {
+    "createdTask": "Successfully created!",
+    "updateTask": "Successfully updated!",
+    "deleteTask": "Successfully deleted!"
+  }
+}
