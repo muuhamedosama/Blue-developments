@@ -1,0 +1,128 @@
+
+.create-task{
+  padding: .5em 1em;
+  background-color: #415a77;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  align-self: center;
+}
+
+.task-list{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-description{
+  display: flex;
+  gap: 5px;
+  margin: -35px 0 20px 5px; 
+  font-size: .6em;
+  color: gray;
+}
+
+.task-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-task{
+  padding: .5em 1em;
+  display: inline-block;
+  background-color: #6b9080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  align-self: start;
+}
+
+.button-wrapper{
+  display: flex;
+  gap:20px;
+}
+
+.delete-btn{
+  padding: .85em 1em;
+  display: inline-block;
+  background-color: #a4c3b2 ;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  align-self: start;
+  cursor: pointer;
+}
+
+.task-item{
+  margin-bottom: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1.5em;
+}
+
+
+.tasks-page{
+  display: flex; 
+  flex-direction: column;
+  min-height: 75vh;
+}
+
+.pagination{
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.page-btn{
+  padding: .25em .5em;
+  margin-right: .2em;
+  background: #edf6f9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.current-page{
+  background-color: #006d77;
+}
+
+.create-options{
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-name{
+  max-width: 700px;
+}
+
+.filter-options{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.dueDate-filter{
+  max-width:200px;
+}
+
+.filter-on-completion,
+.remove-filter
+{
+  display: inline-block;
+  padding: 1em 1.8em;
+  background-color: #a4c3b2 ;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.fullscreen{
+  height: 100vh;
+}
